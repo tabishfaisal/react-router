@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+*{
+  list-style: none;
+}
+body{
+  background-color: lightgray;
+  height: 100vh;
+  width: 100vw;
+}
+.header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0;
+
+}
+.pages{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  border-top: 1px solid black;
+  margin-top: 5px;
+  border-bottom: 1px solid black;
+  background-color: white
+}
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
